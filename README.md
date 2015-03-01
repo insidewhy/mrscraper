@@ -14,10 +14,9 @@ Retrieves:
 ## Running
 
 ```
-npm install
-mrscraper.js --help
+% npm install -g mrscraper
+% mrscraper.js --help
 
-totoro@host mrscraper % mrscraper.js -h
 Usage: node mrscraper.js [-v] [-h] [-t type]
 
 Options:
