@@ -141,7 +141,9 @@ function parseArticle(article$) {
   event.venue_link = venueUrl
 
   if (venueUrl in venueAddresses) {
-    event.venue_address = venueAddresses[venueUrl]
+    var venueAddress = venueAddresses[venueUrl]
+    if (venueAddress)
+      event.venue_address = venueAddress
     return event
   }
   else {
