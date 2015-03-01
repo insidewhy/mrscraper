@@ -1,6 +1,6 @@
 # MrScraper
 
-Scrapes [http://www.seetickets.com/search?s=comedy&c=76&q=&dst=&dend=&l](see ticket comedy list).
+Scrapes event data from [http://www.seetickets.com](seetickets).
 
 Retrieves:
   * Event name
