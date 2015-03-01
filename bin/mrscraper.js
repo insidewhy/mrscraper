@@ -157,7 +157,7 @@ function parseArticle(article$) {
         address = address.split(/\s*,\s*/)
       // add cache entry even when there is no address to avoid duplicate requests
       venueAddresses[venueUrl] = address
-      if (address !== '')
+      if (address)
         event.venue_address = address
 
       return event
