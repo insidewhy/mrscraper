@@ -148,7 +148,6 @@ function parseArticle(article$) {
     whisper('requesting venue data for %s: %s', event.name, venueUrl)
 
     return request.get(venueUrl).then(function(venueBody) {
-      event.venue_address = 'poopy'
       var $ = cheerio.load(venueBody)
 
       var address = $('.location').text().trim()
