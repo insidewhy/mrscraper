@@ -14,7 +14,7 @@ Retrieves:
 ## Running
 
 ```
-% npm install -g mrscraper
+% sudo npm install -g mrscraper
 % mrscraper.js --help
 
 Usage: node mrscraper.js [-v] [-h] [-t type]
